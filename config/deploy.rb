@@ -1,7 +1,7 @@
 # config valid only for current version of Capistrano
 lock '3.5.0'
 
-set :repo_url, 'git@github.com:RpL02/my_app.git'
+set :repo_url, 'https://github.com/RpL02/my_app.git'
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
 
 set :user, 'deployer'
