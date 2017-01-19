@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
   
   resources :posts
-  root 'rooms#show'
+  root to:'rooms#show'
 
 
 
